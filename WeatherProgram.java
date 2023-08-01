@@ -181,7 +181,6 @@ public class WeatherProgram {
                     System.out.print("Enter the date (YYYY-MM-DD HH:MM:SS): ");
                     String dateWeather = scanner.nextLine();
                     String weather = getGivenDateWeatherTemp(dateWeather);
-                    System.out.println("weather "+weather);
                     if (weather != null) {
                         System.out.println("The temperature on " + dateWeather + " was " + weather + "°F.");
                     }
